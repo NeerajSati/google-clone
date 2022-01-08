@@ -1,0 +1,29 @@
+.appbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 12rem;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.466);
+}
+.appComp{
+    width: auto;
+    padding-left: 0.4rem;
+    padding-right: 0.2rem;
+    height: 2rem;
+    margin-right: 18px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.637);
+}
+.appComp:hover{
+    cursor: pointer;
+    color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+    margin-bottom: -3px;
+}
+.appbarIcon{
+    font-size: 17px;
+    margin-right: 10px;
+}
