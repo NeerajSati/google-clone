@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './appbar.css'
 import { BiImage, BiNews, BiSearch } from 'react-icons/bi';
-import { RiVideoLine, RiBookMarkLine } from 'react-icons/ri';
+import { RiVideoLine } from 'react-icons/ri';
 import { Link, useParams } from "react-router-dom";
 
 function Appbar() {
@@ -10,7 +10,6 @@ function Appbar() {
     const [imagesBlue,setImagesBlue] = useState(false);
     const [videosBlue,setVideosBlue] = useState(false);
     const [newsBlue,setNewsBlue] = useState(false);
-    const [booksBlue,setBooksBlue] = useState(false);
     const selectMethod =window.location.pathname.split("/")[2];
     useEffect(() => {
     switch(selectMethod){
@@ -22,8 +21,6 @@ function Appbar() {
                                 break;
                     case "news": setNewsBlue(true);
                                 break;
-                    case "books": setBooksBlue(true);
-                                break;
         default: break;
     }
     }, [selectMethod])
@@ -33,7 +30,6 @@ function Appbar() {
         <Link to={`/${params.id}/images`}><span className={imagesBlue ? "appComp appCompBlue" : "appComp"}><BiImage className="appbarIcon"/>Images</span></Link>
         <Link to={`/${params.id}/videos`}><span className={videosBlue ? "appComp appCompBlue" : "appComp"}><RiVideoLine className="appbarIcon"/>Videos</span></Link>
         <Link to={`/${params.id}/news`}><span className={newsBlue ? "appComp appCompBlue" : "appComp"}><BiNews className="appbarIcon"/>News</span></Link>
-        <Link to={`/${params.id}/books`}><span className={booksBlue ? "appComp appCompBlue" : "appComp"}><RiBookMarkLine className="appbarIcon"/>Books</span></Link>
         </div>
     )
 }

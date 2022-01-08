@@ -8,6 +8,9 @@
     display: flex;
     align-items: center;
 }
+.link:hover{
+    cursor: pointer;
+}
 .linkLogo{
     font-size: 10px;
     margin-left: 2px;
