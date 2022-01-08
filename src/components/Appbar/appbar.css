@@ -17,11 +17,13 @@
     justify-content: center;
     color: rgba(0, 0, 0, 0.637);
 }
-.appComp:hover{
-    cursor: pointer;
+.appCompBlue{
     color: #1a73e8;
     border-bottom: 3px solid #1a73e8;
     margin-bottom: -3px;
+}
+.appComp:hover{
+    cursor: pointer;
 }
 .appbarIcon{
     font-size: 17px;

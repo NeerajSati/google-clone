@@ -1,0 +1,11 @@
+.mainContent{
+    width: 55%;
+    margin-left: 12rem;
+}
+.fetchTime{
+    text-align: left;
+    padding: 5px;
+    color: #444444d2;
+    font-size: 14px;
+    padding-top: 10px;
+}

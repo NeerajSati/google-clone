@@ -16,7 +16,7 @@ function Navbar() {
     let navigate = useNavigate();
     const searchEnter = async(e) => {
         e.preventDefault();
-        let searchValue = await e.target[0].value;
+        let searchValue = await e.target[0].value.replace(/[^a-zA-Z0-9 ]/g, '');;
         if(searchValue)
         {
             navigate(`/${searchValue}/all`);

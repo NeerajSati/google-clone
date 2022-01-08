@@ -1,0 +1,29 @@
+.allresults{
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+.link{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.linkLogo{
+    font-size: 10px;
+    margin-left: 2px;
+}
+.linkTitle{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5px;
+    color: #1558d6;
+}
+.aboutLink{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 6px;
+}
+

@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Searchpage from './components/Searchpage/Searchpage';
+import Imagespage from './components/Imagespage/Imagespage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path="/:id/all" element={<Searchpage/>}/>
+    <Route path="/:id/images" element={<Imagespage/>}/>
     <Route path="/" element={<Mainpage/>}>
     </Route>
 
