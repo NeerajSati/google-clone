@@ -1,31 +1,52 @@
-.appbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 12rem;
-    border-bottom: 1px solid rgba(189, 189, 189, 0.466);
+.appbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 12rem;
+  border-bottom: 1px solid rgba(189, 189, 189, 0.466);
 }
-.appComp{
-    width: auto;
+.appComp {
+  width: auto;
+  padding-left: 0.4rem;
+  padding-right: 0.2rem;
+  height: 2rem;
+  margin-right: 18px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.637);
+}
+.appCompBlue {
+  color: #1a73e8;
+  border-bottom: 3px solid #1a73e8;
+  margin-bottom: -3px;
+}
+.appComp:hover {
+  cursor: pointer;
+}
+.appbarIcon {
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 676px) {
+  .appbar {
+    justify-content: center;
+    padding-left: 0;
+  }
+  .appbarIcon {
+    margin-right: 5px;
+  }
+  .appComp {
     padding-left: 0.4rem;
     padding-right: 0.2rem;
-    height: 2rem;
-    margin-right: 18px;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(0, 0, 0, 0.637);
+  }
 }
-.appCompBlue{
-    color: #1a73e8;
-    border-bottom: 3px solid #1a73e8;
-    margin-bottom: -3px;
-}
-.appComp:hover{
-    cursor: pointer;
-}
-.appbarIcon{
-    font-size: 17px;
-    margin-right: 10px;
+
+@media screen and (max-width: 450px) {
+  .appComp {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }

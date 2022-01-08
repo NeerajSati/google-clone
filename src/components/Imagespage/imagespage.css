@@ -1,8 +1,18 @@
-.allImages{
-    padding: 1rem 1rem 2rem;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    place-items: center;
-    grid-gap: 1.5rem;
-    gap: 1.5rem;
+.allImages {
+  padding: 1rem 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  place-items: center;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 676px) {
+  .allImages {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media screen and (max-width: 400px) {
+  .allImages {
+    grid-template-columns: repeat(1, auto);
+  }
 }

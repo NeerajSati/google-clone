@@ -1,61 +1,87 @@
-.mainPage{
-    height: calc(80vh - 70px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mainPage {
+  height: calc(80vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.mainCenter{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.mainCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.mainLogo{
-    width: 20rem;
+.mainLogo {
+  width: 20rem;
 }
-.searchBar{
-    margin-top: 20px;
-    background-color: white;
-    border-radius: 30px;
-    height: 30px;
-    border: 0.5px solid #d1d1d1;
-    max-width: 500px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
+.searchBar {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 30px;
+  height: 30px;
+  border: 0.5px solid #d1d1d1;
+  max-width: 500px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
-.searchInput{
-    justify-self: center;
-    width: 400px;
-    font-size: 18px;
-    border: none;
-    outline: none;
+.searchInput {
+  justify-self: center;
+  width: 400px;
+  font-size: 18px;
+  border: none;
+  outline: none;
 }
-.micIcon{
-    width: 25px;
-    padding-left: 10px;
+.micIcon {
+  width: 25px;
+  padding-left: 10px;
 }
-.searchIcon{
-    font-size: 17px;
-    color: #8b8b8b;
-    padding-left: 10px;
-    padding-right: 10px;
+.searchIcon {
+  font-size: 17px;
+  color: #8b8b8b;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.searchButtons{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
+.searchButtons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
-.searchBtn{
-    background-color: #b6b6b618;
-    padding: 6px;
-    border-radius: 5px;
-    color: black;
-    font-size: 15px;
-    margin-left: 30px;
-    outline: none;
-    border: none;
+.searchBtn {
+  background-color: #b6b6b618;
+  padding: 6px;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  margin-left: 30px;
+  outline: none;
+  border: none;
 }
-.searchBtn:hover{
-    cursor: pointer;
+.searchBtn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 560px) {
+  .mainLogo {
+    width: 15rem;
+  }
+  .searchBar {
+    max-width: 350px;
+  }
+  .searchBtn {
+    font-size: 14px;
+  }
+  .searchInput {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainLogo {
+    width: 10rem;
+  }
+  .searchBar {
+    max-width: 280px;
+  }
+  .searchBtn {
+    font-size: 12px;
+  }
 }
