@@ -1,0 +1,17 @@
+.singleImage{
+    width: 100%;
+}
+.singleImage:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #535353;
+}
+.imageTitle{
+    margin: 0;
+
+}
+.imageLink{
+    margin: 0;
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+}

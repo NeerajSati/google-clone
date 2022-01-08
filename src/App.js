@@ -1,5 +1,5 @@
 import './App.css';
-import Mainpage from './components/Mainpage/Mainpage'
+import Mainpage from './components/Mainpage/Mainpage';
 import {
   BrowserRouter,
   Routes,
@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import Searchpage from './components/Searchpage/Searchpage';
 import Imagespage from './components/Imagespage/Imagespage';
+import Newspage from './components/Newspage/Newspage';
+import Videospage from './components/Videospage/Videospage';
+
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
     <Routes>
     <Route path="/:id/all" element={<Searchpage/>}/>
     <Route path="/:id/images" element={<Imagespage/>}/>
+    <Route path="/:id/videos" element={<Videospage/>}/>
+    <Route path="/:id/news" element={<Newspage/>}/>
     <Route path="/" element={<Mainpage/>}>
     </Route>
 
