@@ -5,6 +5,8 @@ import googleLogo from "../../img/google.png";
 import mic from "../../img/mic.png";
 import { ImSearch } from "react-icons/im";
 import { useNavigate } from "react-router-dom";
+import Footer from '../Footer/Footer';
+
 function Mainpage() {
   let navigate = useNavigate();
 
@@ -39,6 +41,7 @@ function Mainpage() {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
