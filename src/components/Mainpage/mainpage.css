@@ -35,6 +35,9 @@
   width: 25px;
   padding-left: 10px;
 }
+.micIcon:hover{
+  cursor: pointer;
+}
 .searchIcon {
   font-size: 17px;
   color: #8b8b8b;

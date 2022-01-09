@@ -1,0 +1,14 @@
+.googleDots{
+    height: 300px;
+}
+.googleDots:hover{
+    cursor: pointer;
+}
+.justifyCenter{
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+    .googleDots{
+        height: 200px;
+    }
+}

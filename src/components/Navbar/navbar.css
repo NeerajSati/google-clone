@@ -82,6 +82,9 @@
   padding-bottom: 5px;
   padding-left: 10px;
 }
+.secondMicIcon:hover{
+  cursor: pointer;
+}
 .secondNavImg {
   width: 1.3rem;
   border-radius: 50%;

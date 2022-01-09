@@ -1,10 +1,11 @@
-import './App.css';
 import Mainpage from './components/Mainpage/Mainpage';
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Searchpage from './components/Searchpage/Searchpage';
 import Imagespage from './components/Imagespage/Imagespage';
 import Newspage from './components/Newspage/Newspage';
