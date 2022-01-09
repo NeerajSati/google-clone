@@ -1,6 +1,7 @@
 The Clone of Google with search functionalities for different categories like All Search, Images search, Videos search and news Search.
 Used Google Developers APIs for image and web search, Youtube Data API for videosearch and GNews API for news search.
 Used React-loading-skeleton library to see text skeletons while in loading screen.
+Used react-speech-recognition API for speech recognition.
 
 Screenshots:
 
