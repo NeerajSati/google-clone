@@ -67,7 +67,7 @@ function MyModal(props) {
       
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Voice Search...
+            Voice Search...<p className="modalPara">{'('}Your Browser may not support Speech Recognition..{')'}</p>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="justifyCenter">

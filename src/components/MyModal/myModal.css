@@ -7,6 +7,10 @@
 .justifyCenter{
     text-align: center;
 }
+.modalPara{
+    font-size: 16px;
+    
+}
 @media screen and (max-width: 500px){
     .googleDots{
         height: 200px;
