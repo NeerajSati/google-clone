@@ -37,6 +37,7 @@
 .newsContent {
   display: flex;
   padding-top: 10px;
+  justify-content: space-between;
 }
 
 .newsRight {

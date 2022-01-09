@@ -9,6 +9,11 @@
   margin-top: 5px;
   color: #1558d6;
 }
+.videoTitle:hover{
+  cursor:pointer;
+  color: #4215d6;
+  text-decoration: underline;
+}
 .aboutVideo {
   display: -webkit-box;
   -webkit-line-clamp: 2;
