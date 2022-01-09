@@ -23,6 +23,9 @@
 .smallLogo {
   width: 100px;
 }
+.smallLogo:hover{
+  cursor: pointer;
+}
 .navRight {
   width: 40%;
   height: 70px;

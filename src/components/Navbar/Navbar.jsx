@@ -7,7 +7,7 @@ import boxes from "../../img/click.png";
 import mic from "../../img/mic.png";
 import { MdOutlineSettings } from "react-icons/md";
 import { ImSearch } from "react-icons/im";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Navbar() {
   let params = useParams();
@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <div className={navBar ? "mainNav navSticky" : "mainNav"}>
       <div className={navBar ? "navLeft navLeftSticky" : "navLeft"}>
-        <img src={googleImg} alt="Logo" className="smallLogo"></img>
+        <Link to={"."}><img src={googleImg} alt="Logo" className="smallLogo"></img></Link>
         <form onSubmit={searchEnter}>
           <div className="secondSearchBar">
             <input
