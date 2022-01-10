@@ -146,4 +146,8 @@
     width: 90vw;
     margin-left: 0;
   }
+  
+.navSticky{
+  padding: 30;
+}
 }
