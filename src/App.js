@@ -10,6 +10,7 @@ import Searchpage from './components/Searchpage/Searchpage';
 import Imagespage from './components/Imagespage/Imagespage';
 import Newspage from './components/Newspage/Newspage';
 import Videospage from './components/Videospage/Videospage';
+import Error404 from './components/Error404/Error404'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
     <Route path="/:id/images" element={<Imagespage/>}/>
     <Route path="/:id/videos" element={<Videospage/>}/>
     <Route path="/:id/news" element={<Newspage/>}/>
-    <Route path="/" element={<Mainpage/>}/>
+    <Route path="/" element={<Mainpage/>} exact/>
+    <Route path="*" element={<Error404/>}/>
     </Routes>
     </BrowserRouter>
     </div>
